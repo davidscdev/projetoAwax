@@ -63,4 +63,16 @@ header {
 .menu li a:hover,
 .menu .active a {
     border-bottom: 3px solid #B28756;
+    color: #ccc;
+}
+
+
+/*Main*/
+
+.banner {
+    height: calc(100vh - 100px);
+    background-color: #333;
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+    background-position: bottom;
 }
