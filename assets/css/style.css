@@ -6,6 +6,7 @@
                 
                 body {
                     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+                    overflow-x: hidden;
                 }
                 
                 header {
@@ -146,4 +147,8 @@
                 
                 .banner .ponto.active {
                     background-color: #B28756;
+                }
+                
+                .default {
+                    background-color: red;
                 }
