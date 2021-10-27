@@ -347,3 +347,53 @@
      padding-top: 50px;
      padding-bottom: 50px;
  }
+ 
+ .section-team {
+     overflow: hidden;
+     max-width: 880px;
+     margin: auto;
+ }
+ 
+ .section-team .slides {
+     width: 100vw;
+     height: 100%;
+ }
+ 
+ .section-team .slide {
+     width: 280px;
+     height: 100%;
+     min-height: 300px;
+     display: inline-block;
+     background-color: #fff;
+     margin-right: 20px;
+ }
+ 
+ .section-team .slide-area {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     height: 100%;
+     color: #fff;
+ }
+ 
+ .section-team--area .slider-pontos {
+     margin-top: 30px;
+     height: 20px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ .section-team--area .ponto {
+     width: 15px;
+     height: 15px;
+     border: 2px solid #B28756;
+     border-radius: 8px;
+     margin-left: 5px;
+     cursor: pointer;
+ }
+ 
+ .section-team--area .ponto.active {
+     background-color: #B28756;
+ }
