@@ -506,3 +506,7 @@
  .client {
      margin-left: 20px;
  }
+ 
+ .bg-price {
+     background-color: #ededed;
+ }
