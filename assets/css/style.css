@@ -510,3 +510,48 @@
  .bg-price {
      background-color: #ededed;
  }
+ 
+ .section-prices {
+     display: flex;
+     justify-content: center;
+     width: 100vw;
+     max-width: 1140px;
+ }
+ 
+ .section-prices--item {
+     background-color: #fff;
+     margin-left: 30px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     height: 345px;
+     border-radius: 3px;
+     box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.2);
+     padding: 35px;
+ }
+ 
+ .section-prices--price-name {
+     font-weight: 600;
+     text-transform: uppercase;
+ }
+ 
+ .section-prices--price-value {
+     font-weight: 700;
+     font-size: 30px;
+     margin-top: 20px;
+ }
+ 
+ .section-prices--price-period {
+     color: #adadad;
+ }
+ 
+ .section-prices--price-nullets {
+     margin-top: 25px;
+ }
+ 
+ .section-prices-price-nullet {
+     color: #7e7e7e;
+     padding: 3px;
+     font-size: 12px;
+     text-align: center;
+ }
