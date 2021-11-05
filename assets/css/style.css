@@ -663,4 +663,13 @@
      .section-services--service:first-child {
          border-left: 0;
      }
+     .section-map--area {
+         padding: 30px;
+     }
+     .section-map---info {
+         width: auto;
+     }
+     .section-map---info-item {
+         margin-bottom: 20px;
+     }
  }
